@@ -1,0 +1,30 @@
+.accordionshowandhide input:checked + label::after {
+    content: '-';
+    left: 19px;
+    top: 3px; }
+
+
+
+.accordionshowandhide label::after {
+      content: '+';
+      font-size: 22px;
+      font-weight: bold;
+      position: absolute;
+      left: 15px;
+      top: 2px; }
+
+
+
+.accordionshowandhide label {
+    display: block;
+    padding: 8px 50px;
+    margin: 0 0 2px 0;
+    cursor: pointer;
+    background: #efefef;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: #003359;
+    font-family: "FS Me",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif !important;
+    transition: ease .5s;
+    position: relative;
+    /* ADDING THIS IS REQUIRED */ }
